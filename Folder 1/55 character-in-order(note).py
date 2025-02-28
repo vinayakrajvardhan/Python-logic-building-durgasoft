@@ -1,0 +1,6 @@
+s1 = input("Enter the string:")
+l = list(s1)
+l.sort()
+s2 = ''.join(l)
+print("true" if s1 == s2 else "false")
+print(s2==s1)
